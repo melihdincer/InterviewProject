@@ -46,15 +46,14 @@ namespace FifthProject
             }
             else
                 MessageBox.Show("Bir sayı girmelisiniz!", "Uyarı!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
         }
-
         private void BtnSil_Click(object sender, EventArgs e)
         {
             BtnButton.Enabled = true;
             Txt1.Text = "";
             Lbx1.Items.Clear();
-            LblFibonacci.Text = "";
+            LblFibonacci.Text = "0";
+            Txt1.Focus();
         }
     }
 }
