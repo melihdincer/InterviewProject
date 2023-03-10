@@ -16,16 +16,12 @@ namespace ThirdProject
         {
             InitializeComponent();
         }
-
         private void BtnOlustur_Click(object sender, EventArgs e)
         {
             if (TxtSayi.Text != "")
             {
                 int sayi = int.Parse(TxtSayi.Text);
                 string s = "";
-
-
-
                 Lbx1.Items.Add("0" + "\t" + "1" + "\t" + "2" + "\t" + "3" + "\t" + "4");
 
                 for (int i = 1; i <= sayi; i++)
@@ -42,7 +38,6 @@ namespace ThirdProject
             else
                 MessageBox.Show("Bir sayı girmelisiniz!", "Uyarı!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
-
         private void BtnYenile_Click(object sender, EventArgs e)
         {
             Lbx1.Items.Clear();
