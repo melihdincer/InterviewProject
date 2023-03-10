@@ -29,26 +29,22 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Lbx1 = new System.Windows.Forms.ListBox();
             this.BtnYenile = new System.Windows.Forms.Button();
-            this.ListView1 = new System.Windows.Forms.ListView();
             this.BtnOlustur = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.TxtSayi = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.Lbx1 = new System.Windows.Forms.ListBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.SkyBlue;
-            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.Lbx1);
             this.groupBox1.Controls.Add(this.BtnYenile);
-            this.groupBox1.Controls.Add(this.ListView1);
             this.groupBox1.Controls.Add(this.BtnOlustur);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
@@ -61,6 +57,15 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
+            // Lbx1
+            // 
+            this.Lbx1.FormattingEnabled = true;
+            this.Lbx1.ItemHeight = 23;
+            this.Lbx1.Location = new System.Drawing.Point(6, 284);
+            this.Lbx1.Name = "Lbx1";
+            this.Lbx1.Size = new System.Drawing.Size(1120, 234);
+            this.Lbx1.TabIndex = 10;
+            // 
             // BtnYenile
             // 
             this.BtnYenile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
@@ -71,20 +76,6 @@
             this.BtnYenile.Text = "Yenile";
             this.BtnYenile.UseVisualStyleBackColor = false;
             this.BtnYenile.Click += new System.EventHandler(this.BtnYenile_Click);
-            // 
-            // ListView1
-            // 
-            this.ListView1.AllowColumnReorder = true;
-            this.ListView1.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ListView1.GridLines = true;
-            this.ListView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.ListView1.HideSelection = false;
-            this.ListView1.Location = new System.Drawing.Point(498, 133);
-            this.ListView1.Name = "ListView1";
-            this.ListView1.Size = new System.Drawing.Size(558, 142);
-            this.ListView1.TabIndex = 7;
-            this.ListView1.UseCompatibleStateImageBehavior = false;
-            this.ListView1.View = System.Windows.Forms.View.Details;
             // 
             // BtnOlustur
             // 
@@ -101,7 +92,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label4.Location = new System.Drawing.Point(494, 95);
+            this.label4.Location = new System.Drawing.Point(32, 248);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(248, 23);
             this.label4.TabIndex = 4;
@@ -146,23 +137,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "ÇARPIM TABLOSU OLUŞTURUCU";
             // 
-            // Lbx1
-            // 
-            this.Lbx1.FormattingEnabled = true;
-            this.Lbx1.ItemHeight = 23;
-            this.Lbx1.Location = new System.Drawing.Point(498, 281);
-            this.Lbx1.Name = "Lbx1";
-            this.Lbx1.Size = new System.Drawing.Size(558, 165);
-            this.Lbx1.TabIndex = 9;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(305, 315);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(156, 30);
-            this.textBox1.TabIndex = 10;
-            // 
-            // ThirdForm
+            // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -171,7 +146,7 @@
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Bahnschrift", 14.25F);
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.Name = "ThirdForm";
+            this.Name = "Form3";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -188,10 +163,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox TxtSayi;
         private System.Windows.Forms.Button BtnOlustur;
-        private System.Windows.Forms.ListView ListView1;
         private System.Windows.Forms.Button BtnYenile;
         private System.Windows.Forms.ListBox Lbx1;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

@@ -17,28 +17,27 @@ namespace ThirdProject
             InitializeComponent();
         }
 
-        int[] dizi;
         private void BtnOlustur_Click(object sender, EventArgs e)
         {
-            if (TxtSayi.Text != "") 
-            {                
-            int sayi = int.Parse(TxtSayi.Text);
-            int sonuc;
-            for (int i = 1; i < sayi; i++)
+            if (TxtSayi.Text != "")
             {
-                ListView1.Columns.Add(i + "'ler", 50);              
-            }
-         
-            for (int i = 1; i < sayi; i++)
-            {
-                for (int j = 1; j <= 10; j++)
-                {                
-                    sonuc = i * j;
-                    ListView1.Items.Add(sonuc.ToString());
+                int sayi = int.Parse(TxtSayi.Text);
+                string s = "";
+
+
+
+                Lbx1.Items.Add("0" + "\t" + "1" + "\t" + "2" + "\t" + "3" + "\t" + "4");
+
+                for (int i = 1; i <= sayi; i++)
+                {
+                    for (int j = 1; j < 5; j++)
+                    {
+                        s += (i * j) + "\t";
+                    }
+                    Lbx1.Items.Add(i+"\t"+s);
+                    s = "";
                 }
-            }
-            
-            BtnOlustur.Enabled = false;
+                BtnOlustur.Enabled = false;
             }
             else
                 MessageBox.Show("Bir sayı girmelisiniz!", "Uyarı!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -46,7 +45,7 @@ namespace ThirdProject
 
         private void BtnYenile_Click(object sender, EventArgs e)
         {
-            ListView1.Columns.Clear();
+            Lbx1.Items.Clear();
             TxtSayi.Text = "";
             BtnOlustur.Enabled = true;
         }
