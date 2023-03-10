@@ -36,9 +36,9 @@
             this.Lbx1 = new System.Windows.Forms.ListBox();
             this.BtnSil = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -129,18 +129,6 @@
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(6, 384);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(885, 16);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Not: Bir sayı girdikten sonra çalıştır butonuna tıklayarak girmiş olduğunuz sayın" +
-    "ın fibonacci sayı dizisinde bulunan satırdaki değerine erişebileceksiniz.";
-            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Linen;
@@ -161,6 +149,18 @@
             this.label4.Size = new System.Drawing.Size(152, 25);
             this.label4.TabIndex = 6;
             this.label4.Text = "Fibonacci Dizisi";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.ForeColor = System.Drawing.Color.Red;
+            this.label3.Location = new System.Drawing.Point(6, 384);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(885, 16);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Not: Bir sayı girdikten sonra çalıştır butonuna tıklayarak girmiş olduğunuz sayın" +
+    "ın fibonacci sayı dizisinde bulunan satırdaki değerine erişebileceksiniz.";
             // 
             // Form5
             // 
