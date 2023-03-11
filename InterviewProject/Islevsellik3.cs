@@ -18,25 +18,33 @@ namespace ThirdProject
         }
         private void BtnOlustur_Click(object sender, EventArgs e)
         {
-            if (TxtSayi.Text != "")
+            if(int.Parse(TxtSayi.Text) > 15 || int.Parse(TxtSayi.Text) < 1)
             {
-                int sayi = int.Parse(TxtSayi.Text);
-                string s = "";
-                Lbx1.Items.Add("0" + "\t" + "1" + "\t" + "2" + "\t" + "3" + "\t" + "4");
-                for (int i = 1; i <= sayi; i++)
-                {
-                    for (int j = 1; j < 5; j++)
-                    {
-                        s += (i * j) + "\t";
-                    }
-                    Lbx1.Items.Add(i+"\t"+s);
-                    s = "";
-                }
-                BtnOlustur.Enabled = false;
-            }
+                MessageBox.Show("1 ile 15 arasında bir sayı girmelisiniz!", "Uyarı!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }        
             else
-                MessageBox.Show("Bir sayı girmelisiniz!", "Uyarı!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            {
+                if (TxtSayi.Text != "")
+                {
+                    int sayi = int.Parse(TxtSayi.Text);
+                    string s = "";
+                    Lbx1.Items.Add("0" + "\t" + "1" + "\t" + "2" + "\t" + "3" + "\t" + "4");
+                    for (int i = 1; i <= sayi; i++)
+                    {
+                        for (int j = 1; j < 5; j++)
+                        {
+                            s += (i * j) + "\t";
+                        }
+                        Lbx1.Items.Add(i + "\t" + s);
+                        s = "";
+                    }
+                    BtnOlustur.Enabled = false;
+                }
+                else
+                    MessageBox.Show("Bir sayı girmelisiniz!", "Uyarı!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
+            
         private void BtnYenile_Click(object sender, EventArgs e)
         {
             Lbx1.Items.Clear();

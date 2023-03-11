@@ -105,10 +105,11 @@
             this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(7, 539);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(547, 16);
+            this.label3.Size = new System.Drawing.Size(1009, 16);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Not: Sayıyı girip butona tıkladıktan sonra, o sayıya kadar olan çarpım tablonuz o" +
-    "luşturulacaktır.";
+            this.label3.Text = "Not: Sayıyı girip \"Oluştur\" butonuna tıkladıktan sonra, o sayıya kadar olan çarpı" +
+    "m tablonuz oluşturulacaktır. Yeni bir tablo oluşturmak için \"Yenile\" butonuna tı" +
+    "klamanız yeterlidir.";
             // 
             // TxtSayi
             // 
