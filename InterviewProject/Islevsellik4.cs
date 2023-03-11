@@ -21,8 +21,7 @@ namespace FourthProject
         }
 
         private void BtnOpenFile_Click(object sender, EventArgs e)
-        {
-            //Txt dosyasında son satırdan sonra boşluk varsa onu silmeli.
+        {           
             if (openFileDialog1.ShowDialog() == DialogResult.OK) //openfiledialog açılıp tamam ' a basarsak 
             {
                 StreamReader sr = new StreamReader(openFileDialog1.FileName);
