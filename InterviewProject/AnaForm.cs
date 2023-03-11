@@ -23,31 +23,31 @@ namespace InterviewProject
 
         private void BtnFirst_Click(object sender, EventArgs e)
         {
-            Form1 frm = new Form1();
+            Islevsellik1 frm = new Islevsellik1();
             frm.Show();
         }
 
         private void BtnSecond_Click(object sender, EventArgs e)
         {
-            Form2 frm = new Form2();
+            Islevsellik2 frm = new Islevsellik2();
             frm.Show();
         }
 
         private void BtnThird_Click(object sender, EventArgs e)
         {
-            Form3 frm = new Form3();
+            Islevsellik3 frm = new Islevsellik3();
             frm.Show();
         }
 
         private void BtnFourth_Click(object sender, EventArgs e)
         {
-            Form4 frm = new Form4();
+            Islevsellik4 frm = new Islevsellik4();
             frm.Show();
         }
 
         private void BtnFifth_Click(object sender, EventArgs e)
         {
-            Form5 frm = new Form5();    
+            Islevsellik5 frm = new Islevsellik5();    
             frm.Show();
         }
     }

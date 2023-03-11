@@ -40,52 +40,62 @@
             // 
             // BtnFirst
             // 
-            this.BtnFirst.Location = new System.Drawing.Point(343, 172);
+            this.BtnFirst.BackColor = System.Drawing.Color.DimGray;
+            this.BtnFirst.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.BtnFirst.Location = new System.Drawing.Point(288, 186);
             this.BtnFirst.Name = "BtnFirst";
             this.BtnFirst.Size = new System.Drawing.Size(387, 52);
             this.BtnFirst.TabIndex = 0;
-            this.BtnFirst.Text = "First";
-            this.BtnFirst.UseVisualStyleBackColor = true;
+            this.BtnFirst.Text = "Birinci İşlevsellik";
+            this.BtnFirst.UseVisualStyleBackColor = false;
             this.BtnFirst.Click += new System.EventHandler(this.BtnFirst_Click);
             // 
             // BtnSecond
             // 
-            this.BtnSecond.Location = new System.Drawing.Point(343, 230);
+            this.BtnSecond.BackColor = System.Drawing.Color.DimGray;
+            this.BtnSecond.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.BtnSecond.Location = new System.Drawing.Point(288, 244);
             this.BtnSecond.Name = "BtnSecond";
             this.BtnSecond.Size = new System.Drawing.Size(387, 52);
             this.BtnSecond.TabIndex = 1;
-            this.BtnSecond.Text = "Second";
-            this.BtnSecond.UseVisualStyleBackColor = true;
+            this.BtnSecond.Text = "İkinci İşlevsellik";
+            this.BtnSecond.UseVisualStyleBackColor = false;
             this.BtnSecond.Click += new System.EventHandler(this.BtnSecond_Click);
             // 
             // BtnThird
             // 
-            this.BtnThird.Location = new System.Drawing.Point(343, 288);
+            this.BtnThird.BackColor = System.Drawing.Color.DimGray;
+            this.BtnThird.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.BtnThird.Location = new System.Drawing.Point(288, 302);
             this.BtnThird.Name = "BtnThird";
             this.BtnThird.Size = new System.Drawing.Size(387, 52);
             this.BtnThird.TabIndex = 2;
-            this.BtnThird.Text = "Third";
-            this.BtnThird.UseVisualStyleBackColor = true;
+            this.BtnThird.Text = "Üçüncü İşlevsellik";
+            this.BtnThird.UseVisualStyleBackColor = false;
             this.BtnThird.Click += new System.EventHandler(this.BtnThird_Click);
             // 
             // BtnFourth
             // 
-            this.BtnFourth.Location = new System.Drawing.Point(343, 346);
+            this.BtnFourth.BackColor = System.Drawing.Color.DimGray;
+            this.BtnFourth.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.BtnFourth.Location = new System.Drawing.Point(288, 360);
             this.BtnFourth.Name = "BtnFourth";
             this.BtnFourth.Size = new System.Drawing.Size(387, 52);
             this.BtnFourth.TabIndex = 3;
-            this.BtnFourth.Text = "Fourth";
-            this.BtnFourth.UseVisualStyleBackColor = true;
+            this.BtnFourth.Text = " Dördüncü İşlevsellik";
+            this.BtnFourth.UseVisualStyleBackColor = false;
             this.BtnFourth.Click += new System.EventHandler(this.BtnFourth_Click);
             // 
             // BtnFifth
             // 
-            this.BtnFifth.Location = new System.Drawing.Point(343, 404);
+            this.BtnFifth.BackColor = System.Drawing.Color.DimGray;
+            this.BtnFifth.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.BtnFifth.Location = new System.Drawing.Point(288, 418);
             this.BtnFifth.Name = "BtnFifth";
             this.BtnFifth.Size = new System.Drawing.Size(387, 52);
             this.BtnFifth.TabIndex = 4;
-            this.BtnFifth.Text = "Fifth";
-            this.BtnFifth.UseVisualStyleBackColor = true;
+            this.BtnFifth.Text = "Beşinci İşlevsellik";
+            this.BtnFifth.UseVisualStyleBackColor = false;
             this.BtnFifth.Click += new System.EventHandler(this.BtnFifth_Click);
             // 
             // label1
@@ -102,13 +112,13 @@
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(164, 21);
+            this.groupBox1.Location = new System.Drawing.Point(109, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(708, 100);
+            this.groupBox1.Size = new System.Drawing.Size(719, 112);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             // 
-            // AnaForm
+            // Giriş
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -122,8 +132,8 @@
             this.Controls.Add(this.BtnFirst);
             this.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(6);
-            this.Name = "AnaForm";
-            this.Text = "AnaForm";
+            this.Name = "Giriş";
+            this.Text = "Giriş";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
