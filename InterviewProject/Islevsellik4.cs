@@ -33,6 +33,7 @@ namespace FourthProject
                     listBox1.Items.Add(item);
                     sayidosyasi = sr.ReadLine();
                 }
+
                 //sayıları double türündeki diziye aktarma
                 double sayi;
                 double[] dizi = new double[listBox1.Items.Count];
