@@ -1,6 +1,6 @@
 ﻿namespace ThirdProject
 {
-    partial class Form3
+    partial class Islevsellik3
     {
         /// <summary>
         /// Required designer variable.
@@ -137,7 +137,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "ÇARPIM TABLOSU OLUŞTURUCU";
             // 
-            // Form3
+            // Islevsellik3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -146,8 +146,8 @@
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Bahnschrift", 14.25F);
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.Name = "Form3";
-            this.Text = "Form1";
+            this.Name = "Islevsellik3";
+            this.Text = "İşlevsellik3";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

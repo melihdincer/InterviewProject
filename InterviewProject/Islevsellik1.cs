@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace InterviewProject
 {
-    public partial class Form1 : Form
+    public partial class Islevsellik1 : Form
     {
-        public Form1()
+        public Islevsellik1()
         {
             InitializeComponent();
         }

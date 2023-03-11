@@ -10,24 +10,22 @@ using System.Windows.Forms;
 
 namespace FifthProject
 {
-    public partial class Form5 : Form
+    public partial class Islevsellik5 : Form
     {
-        public Form5()
+        public Islevsellik5()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            int[] fibonacci = { 0, 1, 1, 2, 3, 5 };
         }
 
         private void BtnButton_Click(object sender, EventArgs e)
         {
             int a = 1;
             int b = 1;
-            int sonuc = 0;
-            
+            int sonuc = 0;          
             if(Txt1.Text != "") 
             {
                 int girilensayi = int.Parse(Txt1.Text);

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ThirdProject
 {
-    public partial class Form3 : Form
+    public partial class Islevsellik3 : Form
     {
-        public Form3()
+        public Islevsellik3()
         {
             InitializeComponent();
         }
@@ -23,7 +23,6 @@ namespace ThirdProject
                 int sayi = int.Parse(TxtSayi.Text);
                 string s = "";
                 Lbx1.Items.Add("0" + "\t" + "1" + "\t" + "2" + "\t" + "3" + "\t" + "4");
-
                 for (int i = 1; i <= sayi; i++)
                 {
                     for (int j = 1; j < 5; j++)

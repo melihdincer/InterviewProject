@@ -1,6 +1,6 @@
 ﻿namespace InterviewProject
 {
-    partial class Form1
+    partial class Islevsellik1
     {
         /// <summary>
         /// Required designer variable.
@@ -38,6 +38,7 @@
             this.TxtSayi3 = new System.Windows.Forms.TextBox();
             this.TxtSonuc = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -128,28 +129,43 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(173, 79);
+            this.groupBox1.Location = new System.Drawing.Point(25, 35);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(835, 345);
+            this.groupBox1.Size = new System.Drawing.Size(901, 328);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             // 
-            // Form1
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Bahnschrift", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.ForeColor = System.Drawing.Color.Red;
+            this.label5.Location = new System.Drawing.Point(22, 413);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(934, 16);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Not: Sayı girişi yapıldıktan sonra \"Sonucu Göster\" butonuna tıklandığında, \"Sonuç" +
+    "\" kısmına; birinci ve ikinci sayının toplamının üçüncü sayı ile çarpımı yazdırıl" +
+    "acaktır.";
+            // 
+            // Islevsellik1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1176, 545);
+            this.ClientSize = new System.Drawing.Size(968, 453);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ForeColor = System.Drawing.Color.MidnightBlue;
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.Name = "Form1";
+            this.Name = "Islevsellik1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "İşlevsellik1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -165,6 +181,7 @@
         private System.Windows.Forms.TextBox TxtSayi3;
         private System.Windows.Forms.TextBox TxtSonuc;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label5;
     }
 }
 

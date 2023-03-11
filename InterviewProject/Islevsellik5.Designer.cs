@@ -1,6 +1,6 @@
 ﻿namespace FifthProject
 {
-    partial class Form5
+    partial class Islevsellik5
     {
         /// <summary>
         /// Required designer variable.
@@ -93,11 +93,14 @@
             // 
             // Lbx1
             // 
+            this.Lbx1.BackColor = System.Drawing.Color.Gainsboro;
+            this.Lbx1.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbx1.ForeColor = System.Drawing.Color.Brown;
             this.Lbx1.FormattingEnabled = true;
-            this.Lbx1.ItemHeight = 20;
+            this.Lbx1.ItemHeight = 21;
             this.Lbx1.Location = new System.Drawing.Point(18, 50);
             this.Lbx1.Name = "Lbx1";
-            this.Lbx1.Size = new System.Drawing.Size(425, 224);
+            this.Lbx1.Size = new System.Drawing.Size(425, 256);
             this.Lbx1.TabIndex = 5;
             // 
             // BtnSil
@@ -157,12 +160,12 @@
             this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(6, 384);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(885, 16);
+            this.label3.Size = new System.Drawing.Size(897, 16);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Not: Bir sayı girdikten sonra çalıştır butonuna tıklayarak girmiş olduğunuz sayın" +
-    "ın fibonacci sayı dizisinde bulunan satırdaki değerine erişebileceksiniz.";
+            this.label3.Text = "Not: Bir sayı girdikten sonra çalıştır butonuna tıklayarak, girmiş olduğunuz sayı" +
+    "nın fibonacci sayı dizisinde bulunan satırdaki değer ekrana yazdırılacaktır.";
             // 
-            // Form5
+            // Islevsellik5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -172,9 +175,9 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form5";
+            this.Name = "Islevsellik5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "İşlevsellik5";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

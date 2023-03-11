@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace SecondProject
 {
-    public partial class Form2 : Form
+    public partial class Islevsellik2 : Form
     {
-        public Form2()
+        public Islevsellik2()
         {
             InitializeComponent();
         }
